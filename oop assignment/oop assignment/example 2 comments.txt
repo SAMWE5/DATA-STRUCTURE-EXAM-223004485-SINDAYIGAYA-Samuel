@@ -1,0 +1,24 @@
+Variable Declarations and Initializations:
+int age = 30;
+
+Declares an integer variable age and assigns it the value 30.
+float pi = 3.14;
+
+Declares a floating-point variable pi (single precision) and assigns it the value 3.14.
+float typically has about 6-7 decimal places of precision.
+double num = 3.1415926535;
+
+Declares a double (double precision floating-point) variable num and assigns it a more precise value of π (3.1415926535).
+double provides higher precision than float (about 15-16 decimal places).
+char letter = 'A';
+
+Declares a char (character) variable letter and assigns it the character 'A'.
+char holds a single character enclosed in single quotes (' ').
+bool isHappy = true;
+
+Declares a boolean variable isHappy and assigns it the value true.
+bool can hold true or false.
+string name = "Alice";
+
+Declares a string variable name and assigns it the text "Alice".
+Strings must be enclosed in double quotes (" ").

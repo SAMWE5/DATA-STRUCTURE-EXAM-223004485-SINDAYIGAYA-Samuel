@@ -1,0 +1,40 @@
+1. Understanding the for Loop
+
+for (int i = 1; i <= 5; i++) {
+A for loop is used to repeat a block of code multiple times.
+
+Parts of the for Loop
+
+for (initialization; condition; update) {
+Initialization (int i = 1;):
+
+Creates an integer variable i and initializes it to 1.
+This variable controls how many times the loop runs.
+Condition (i <= 5;):
+
+The loop continues as long as i is less than or equal to 5.
+If i > 5, the loop stops.
+Update (i++):
+
+After each loop iteration, i increases by 1 (i = i + 1).
+This ensures the loop progresses and eventually stops.
+2. The Loop Body
+
+    cout << "This is iteration " << i << endl;
+This line prints the current iteration number.
+i is inserted into the output using <<.
+3. How the Loop Works (Step by Step Execution)
+Iteration	i Value	Condition (i <= 5)	Output	i++ (Next Value)
+1st	1	true	This is iteration 1	2
+2nd	2	true	This is iteration 2	3
+3rd	3	true	This is iteration 3	4
+4th	4	true	This is iteration 4	5
+5th	5	true	This is iteration 5	6
+6th	6	false (Loop stops)	No output	—
+4. Final Output
+
+This is iteration 1
+This is iteration 2
+This is iteration 3
+This is iteration 4
+This is iteration 5

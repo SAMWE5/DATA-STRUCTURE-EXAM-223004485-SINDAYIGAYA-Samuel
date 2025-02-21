@@ -1,0 +1,30 @@
+This line includes the iostream (input-output stream) library.
+It allows us to use cout (for output) and cin (for input).
+The #include directive tells the compiler to include this library before compiling the code.
+
+using namespace std;
+The std (standard) namespace contains commonly used C++ objects like cout, cin, and endl.
+This line saves us from writing std::cout or std::endl every time.
+
+int main() {
+This is the main function, the starting point of the program.
+Every C++ program must have a main() function.
+Variable Declarations and Initialization
+
+    int age = 20;  // Integer variable
+int (integer) is a data type that stores whole numbers.
+age is a variable that holds the value 20.
+
+    double price = 19.99;  // Double variable
+double is a data type used to store decimal (floating-point) numbers.
+price holds the value 19.99.
+
+    char grade = 'A';  // Character variable
+char is a data type that stores a single character.
+grade holds the character 'A'.
+Important: A char is always enclosed in single quotes ('').
+
+    string name = "Alice";  // String variable
+string is a sequence of characters (text).
+name holds the value "Alice".
+Unlike char, a string uses double quotes ("").

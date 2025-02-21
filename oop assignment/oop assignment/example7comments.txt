@@ -1,0 +1,51 @@
+
+
+1. Declaring a Variable
+
+int age = 16;
+This declares an integer variable named age and assigns it the value 16.
+This value will be used in a condition check.
+2. The if Statement
+
+if (age >= 18) {
+The if statement checks whether the condition inside the parentheses (age >= 18) is true or false.
+age >= 18 means:
+If age is greater than or equal to 18, the condition is true.
+If age is less than 18, the condition is false.
+3. Executing Code Based on the Condition
+Case 1: When age >= 18 (True)
+
+    cout << "You are an adult." << endl;
+If age is 18 or more, this line prints:
+
+You are an adult.
+The else block is skipped.
+Case 2: When age < 18 (False)
+
+} else {
+    cout << "You are a minor." << endl;
+}
+If the if condition fails (age is less than 18), the else block executes.
+It prints:
+
+You are a minor.
+4. Example Execution
+Scenario 1: age = 20
+
+if (20 >= 18)  // true
+=> "You are an adult." is printed.
+=> The else block is skipped.
+Output:
+
+You are an adult.
+Scenario 2: age = 16
+
+if (16 >= 18)  // false
+=> The if block is skipped.
+=> The else block runs.
+Output:
+
+You are a minor.
+5. Expected Output (For age = 16)
+
+You are a minor.

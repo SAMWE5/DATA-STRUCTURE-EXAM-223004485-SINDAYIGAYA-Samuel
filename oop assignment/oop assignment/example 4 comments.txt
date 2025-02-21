@@ -1,0 +1,32 @@
+4. Declaring Variables
+
+    string name;
+    int age;
+string name; → Declares a string variable name to store the user's name.
+int age; → Declares an integer variable age to store the user's age.
+These variables will be used to store user input.
+5. Asking for User Input
+
+    cout << "Enter your name: ";
+cout (character output) is used to display text on the screen.
+This prints "Enter your name: " so the user knows what to enter.
+
+    cin >> name;
+cin (character input) is used to take user input from the keyboard.
+>> is the extraction operator, which takes input from the user and stores it in name.
+Issue: cin only reads one word (it stops at a space). If a user enters "John Doe", only "John" will be stored in name.
+6. Asking for the User's Age
+
+    cout << "Enter your age: ";
+Displays "Enter your age: " on the screen.
+
+    cin >> age;
+Takes user input for age and stores it as an integer.
+7. Displaying the Output
+
+    cout << "Hello, " << name << "! You are " << age << " years old." << endl;
+cout prints a greeting message to the user.
+<< is the insertion operator, which combines text and variable values.
+name is printed inside "Hello, " << name << "!", displaying the user's name.
+"You are " << age << " years old." prints the age.
+endl moves the cursor to the next line.

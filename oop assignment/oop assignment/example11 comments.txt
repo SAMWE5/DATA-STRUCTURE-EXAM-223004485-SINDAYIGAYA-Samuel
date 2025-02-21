@@ -1,0 +1,40 @@
+A while loop repeats a block of code as long as a condition remains true.
+In this case, the loop will run as long as i is less than or equal to 5.
+How a while Loop Works
+
+while (condition) {
+    // Code runs if condition is true
+}
+Before each loop execution, the condition is checked.
+If the condition is true, the loop runs.
+If the condition becomes false, the loop stops.
+2. Declaring and Initializing i
+
+int i = 1;
+This creates an integer variable i and assigns it an initial value of 1.
+This variable controls how many times the loop runs.
+3. The Loop Body
+
+    cout << "This is iteration " << i << endl;
+This prints the current iteration number.
+i is inserted into the output using <<.
+4. Updating i
+
+    i++;
+After each loop execution, i++ increases i by 1.
+This prevents the loop from running forever.
+5. How the Loop Runs (Step by Step Execution)
+Step	Current i Value	Condition (i <= 5)	Action	Next i Value (i++)
+1st	1	true (1 ≤ 5)	Prints: "This is iteration 1"	2
+2nd	2	true (2 ≤ 5)	Prints: "This is iteration 2"	3
+3rd	3	true (3 ≤ 5)	Prints: "This is iteration 3"	4
+4th	4	true (4 ≤ 5)	Prints: "This is iteration 4"	5
+5th	5	true (5 ≤ 5)	Prints: "This is iteration 5"	6
+6th	6	false (6 ≤ 5 is false)	Loop stops	—
+6. Expected Output
+
+This is iteration 1
+This is iteration 2
+This is iteration 3
+This is iteration 4
+This is iteration 5

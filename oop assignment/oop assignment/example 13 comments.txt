@@ -1,0 +1,9 @@
+Function Definition (greet):
+
+The function greet takes a single parameter, name, which is of type string.
+Inside the function, cout is used to print a greeting message "Hello, [name]!" to the console.
+Main Function (main):
+
+The greet function is called with "Alice" as an argument.
+The function executes and prints "Hello, Alice!" to the console.
+The program then returns 0, indicating successful execution.

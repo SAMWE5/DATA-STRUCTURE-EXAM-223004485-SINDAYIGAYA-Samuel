@@ -1,0 +1,70 @@
+1. Declaring a Variable
+
+int age = 25;
+This declares an integer variable named age and assigns it the value 25.
+The program will use this value to determine if the person is a minor, an adult, or a senior citizen.
+2. The if Condition
+
+if (age >= 18 && age < 60) {
+This checks two conditions using the && (logical AND) operator:
+age >= 18 → True if age is 18 or more.
+age < 60 → True if age is less than 60.
+Both conditions must be true for this block to execute.
+If age is between 18 and 59, the program prints:
+
+You are an adult.
+3. The else if Condition
+
+} else if (age >= 60) {
+This block runs only if the first if condition fails.
+age >= 60 checks if the person is 60 or older.
+If true, the program prints:
+
+You are a senior citizen.
+4. The else Condition
+
+} else {
+If both previous conditions fail, this else block runs.
+This means age must be less than 18.
+The program prints:
+
+You are a minor.
+5. Example Execution
+Let's analyze different cases:
+
+Case 1: age = 25
+
+if (25 >= 18 && 25 < 60)  // true
+=> "You are an adult." is printed.
+=> The rest of the conditions are skipped.
+Output:
+
+
+You are an adult.
+Case 2: age = 65
+
+if (65 >= 18 && 65 < 60)  // false (because 65 is not < 60)
+=> Skips the if block.
+
+else if (65 >= 60)  // true
+=> "You are a senior citizen." is printed.
+Output:
+
+
+You are a senior citizen.
+Case 3: age = 15
+
+if (15 >= 18 && 15 < 60)  // false
+=> Skips the if block.
+
+else if (15 >= 60)  // false
+=> Skips the else if block.
+
+else
+=> "You are a minor." is printed.
+Output:
+
+You are a minor.
+6. Expected Output for age = 25
+
+You are an adult.

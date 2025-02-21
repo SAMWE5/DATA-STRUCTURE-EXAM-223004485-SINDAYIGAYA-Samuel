@@ -1,0 +1,59 @@
+1. Variable Declarations
+
+int a = 10, b = 3;
+This declares two integer (int) variables:
+a is assigned 10.
+b is assigned 3.
+These values will be used in arithmetic operations.
+2. Performing Arithmetic Operations
+Each cout statement prints the result of a mathematical operation.
+Addition
+
+cout << "Sum: " << a + b << endl;
+a + b performs addition:
+
+10 + 3 = 13
+The output will be:
+
+
+Sum: 13
+Subtraction
+
+cout << "Difference: " << a - b << endl;
+a - b performs subtraction:
+
+10 - 3 = 7
+The output will be:
+
+
+Difference: 7
+Multiplication
+
+cout << "Product: " << a * b << endl;
+a * b performs multiplication:
+
+10 * 3 = 30
+The output will be:
+
+Product: 30
+Division (Integer Division)
+
+cout << "Quotient: " << a / b << endl;
+a / b performs integer division:
+
+10 / 3 = 3
+Since both a and b are integers, the decimal part is discarded.
+C++ performs integer division when both operands are integers.
+The output will be:
+
+Quotient: 3
+Modulus (Remainder)
+
+cout << "Remainder: " << a % b << endl;
+a % b calculates the remainder of the division:
+
+10 % 3 = 1
+10 / 3 gives a quotient of 3, and the remainder is 1.
+The output will be:
+
+Remainder: 1

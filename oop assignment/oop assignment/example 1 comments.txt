@@ -1,0 +1,26 @@
+The #include <iostream> directive tells the compiler to include the iostream (input-output stream) library.
+This library allows the program to perform input (cin) and output (cout) operations.
+The #include directive is a preprocessor command, meaning it is processed before the actual compilation of the program.
+
+using namespace std; // Use standard namespace
+using namespace std; tells the compiler to use the standard (std) namespace.
+The std namespace contains standard C++ functions and objects, such as cout, cin, and endl.
+Without this line, you would have to write std::cout instead of just cout.
+While it's convenient, some programmers prefer to avoid it in larger projects to prevent naming conflicts.
+
+int main() {  // Main function
+This defines the main function, which is the entry point of every C++ program.
+The int before main means the function returns an integer value (typically 0).
+The curly braces { ... } indicate the start and end of the function body.
+
+cout << "Hello, World!";  // Print output to the screen
+cout stands for "character output" and is used to print text to the console.
+The << operator is called the insertion operator. It sends data to the output stream.
+"Hello, World!" is a string literal enclosed in double quotes.
+This statement prints "Hello, World!" on the screen.
+
+ return 0;  // Return 0 to indicate successful execution
+The return statement ends the main function and returns a value.
+0 is returned to indicate that the program executed successfully.
+In most operating systems, returning 0 means "no errors occurred."
+If an error occurs, other return values (like 1) can be used to indicate failure.

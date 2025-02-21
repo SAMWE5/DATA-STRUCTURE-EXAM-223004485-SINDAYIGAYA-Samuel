@@ -1,0 +1,31 @@
+ Function Definition: add(int a, int b)
+
+int add(int a, int b) {
+    return a + b;
+}
+This is a function definition for add(), which takes two integer parameters (a and b).
+The function adds the two numbers and returns their sum.
+How the Function Works
+The function receives two numbers (a and b).
+It calculates the sum of a and b.
+It returns the sum to the part of the program that called it.
+. main() Function
+
+int main() {
+Every C++ program starts execution from the main() function.
+This function controls the flow of the program.
+. Calling the Function
+
+    int sum = add(5, 10);
+This calls the add() function, passing 5 and 10 as arguments.
+The function returns 5 + 10 = 15.
+The returned value is stored in the variable sum.
+. Printing the Result
+
+    cout << "The sum is: " << sum << endl;
+This displays the sum on the screen.
+The output will be:
+
+The sum is: 15
+. Returning from main()
+
